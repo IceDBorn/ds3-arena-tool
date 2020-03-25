@@ -24,4 +24,4 @@ keeping track of them!
 5. If the tool exits for no reason, there's probably a problem with the wins.txt file located inside the tool's folder or there
    might be a problem with your antivirus.
 
-# [//// Nexus Mods ////](https://www.nexusmods.com/darksouls2/mods/491/)
+# [//// Nexus Mods ////](https://www.nexusmods.com/darksouls3/mods/491/)
