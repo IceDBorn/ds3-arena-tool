@@ -79,9 +79,9 @@ namespace DS3_Arena_Tool {
                     const bool flag = true;
                     var error = new Error(flag);
                     if (Directory.Exists(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) +
-                                         "//DarkSoulsII")) {
+                                         "//DarkSoulsIII")) {
                         Directory.Delete(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) +
-                                         "//DarkSoulsII");
+                                         "//DarkSoulsIII");
                     }
                     SystemSounds.Hand.Play();
                     error.ShowDialog();
