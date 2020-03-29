@@ -41,6 +41,9 @@ namespace DS3_Arena_Tool {
                 flag = false;
                 if (errorFlag.Equals(1)) {
                     var error = new Error(false);
+                    if (Directory.Exists("Backup")) {
+                        Directory.Delete("Backup");
+                    }
                     SystemSounds.Hand.Play();
                     error.ShowDialog();
                 }
@@ -75,6 +78,11 @@ namespace DS3_Arena_Tool {
                 if (errorFlag.Equals(1)) {
                     const bool flag = true;
                     var error = new Error(flag);
+                    if (Directory.Exists(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) +
+                                         "//DarkSoulsII")) {
+                        Directory.Delete(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) +
+                                         "//DarkSoulsII");
+                    }
                     SystemSounds.Hand.Play();
                     error.ShowDialog();
                 }
